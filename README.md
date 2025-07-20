@@ -21,3 +21,21 @@ It helps assess:
 - Potential overfitting or underfitting
 - Generalization ability on unseen data
 ![Validation vs Training Loss](val_vs_train_loss.png)
+
+💾 Trained Model
+
+The trained LSTM model has been saved as:
+
+`wattwatcher_model.h5`
+
+You can reuse this model without retraining by loading it as follows:
+
+`python
+from tensorflow.keras.models import load_model
+
+# Load the pre-trained model
+model = load_model("wattwatcher_model.h5")
+```
+
+This allows you to make predictions on new energy consumption data directly.
+
