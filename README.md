@@ -17,7 +17,7 @@ The graph below illustrates the training and validation loss throughout the mode
 
 It helps assess:
 
--Model convergence and stability
--Potential overfitting or underfitting
--Generalization ability on unseen data
+- Model convergence and stability
+- Potential overfitting or underfitting
+- Generalization ability on unseen data
 ![Validation vs Training Loss](val_vs_train_loss.png)
