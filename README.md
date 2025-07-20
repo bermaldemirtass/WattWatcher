@@ -39,3 +39,12 @@ model = load_model("wattwatcher_model.h5")
 
 This allows you to make predictions on new energy consumption data directly.
 
+---
+ 📂 Dataset
+
+This project uses the [Energy Efficiency Dataset from the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Energy+efficiency).
+
+Note: To run the project, please download the file manually and place it in the project root directory as `energydata_complete.csv`.
+
+This avoids licensing issues and keeps the repository lightweight.
+
