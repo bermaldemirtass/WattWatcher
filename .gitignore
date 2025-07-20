@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
+# Model files
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (eğer kullanıyorsan)
+.vscode/
+
+# Ortam dosyaları
+.env
+
