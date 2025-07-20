@@ -12,3 +12,13 @@ Such forecasting is essential for:
 
 ![Prediction Plot](prediction_plot.png)
 
+📉 Validation vs Training Loss
+The graph below illustrates the training and validation loss throughout the model’s learning process.
+
+It helps assess:
+
+Model convergence and stability
+Potential overfitting or underfitting
+Generalization ability on unseen data
+
+![Validation vs Training Loss](val_vs_train_loss.png)
